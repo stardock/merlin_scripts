@@ -6,5 +6,5 @@ place the scripts under
 
 
 update crons in `/jffs/scripts/post-mount`  
-`cru a Zerortier_monitor "*/5 * * * * /bin/sh /koolshare/scripts/checkip.sh >> /tmp/ip.log"`  
+`cru a Zerortier_monitor "*/3 * * * * /bin/sh /jffs/.koolshare/scripts/checkzero2.sh >> /tmp/checkzero.txt"`  
 
